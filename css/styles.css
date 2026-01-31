@@ -1,0 +1,104 @@
+:root {
+  --brand-pink: #f66d7e;
+  --brand-purple: #361134;
+  --brand-light: #feecee;
+  --brand-accent: #11dff7;
+}
+
+body {
+  font-family: "Roboto Condensed", "Segoe UI", Arial, sans-serif;
+  color: var(--brand-purple);
+  background-color: #fff;
+}
+
+.site-header .navbar-brand {
+  color: var(--brand-purple);
+}
+
+.site-header .nav-link {
+  color: var(--brand-purple);
+  font-weight: 500;
+}
+
+.site-header .nav-link:hover {
+  color: var(--brand-pink);
+}
+
+.site-header .nav-link.active {
+  color: var(--brand-pink);
+  font-weight: 700;
+}
+
+.hero-section {
+  background: linear-gradient(180deg, rgba(246, 109, 126, 0.08), rgba(255, 255, 255, 0));
+}
+
+.page-hero {
+  background: linear-gradient(180deg, rgba(246, 109, 126, 0.12), rgba(255, 255, 255, 0));
+}
+
+.section-alt {
+  background-color: var(--brand-light);
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--brand-pink);
+  --bs-btn-border-color: var(--brand-pink);
+  --bs-btn-hover-bg: var(--brand-purple);
+  --bs-btn-hover-border-color: var(--brand-purple);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--brand-pink);
+  --bs-btn-border-color: var(--brand-pink);
+  --bs-btn-hover-bg: var(--brand-pink);
+  --bs-btn-hover-border-color: var(--brand-pink);
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 12px 30px rgba(54, 17, 52, 0.08);
+  height: 100%;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(54, 17, 52, 0.08);
+}
+
+.product-card img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.map-embed {
+  width: 100%;
+  height: 320px;
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 12px 30px rgba(54, 17, 52, 0.08);
+}
+
+.contact-form .form-control {
+  border-radius: 0.75rem;
+  border-color: rgba(54, 17, 52, 0.2);
+}
+
+.site-footer {
+  background-color: #fff;
+}
+
+h1, h2, h3, .navbar-brand {
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  h1, h2, h3 {
+    text-transform: none;
+  }
+}
