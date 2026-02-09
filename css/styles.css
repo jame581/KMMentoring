@@ -97,6 +97,11 @@ h1, h2, h3, .navbar-brand {
   text-transform: uppercase;
 }
 
+.page-hero-title{
+  color: darkmagenta;
+}
+
+
 @media (max-width: 767px) {
   h1, h2, h3 {
     text-transform: none;
